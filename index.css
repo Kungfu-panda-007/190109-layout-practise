@@ -54,6 +54,27 @@ body {
   padding: 8px;
 }
 
+.gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery .card {
+  float: left;
+  margin-right: 12px;
+  border: 1px solid dodgerblue;
+}
+
+.card p {
+  text-align: center;
+  padding: 0px;
+}
+
+.card:hover {
+  opacity: 0.6;
+}
+
 .footer {
   background-color: #747474;
   color: white;
